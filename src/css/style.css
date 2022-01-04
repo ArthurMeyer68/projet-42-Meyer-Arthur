@@ -1,0 +1,19 @@
+/* Vendors */
+@import url('vendors/normalize.css');
+
+/* Variables */
+@import url('utils/variables.css');
+
+/* Base */
+@import url('base/main.css');
+@import url('base/media.css');
+@import url('base/icons.css');
+
+/* Layout */
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
+/* Components */
+@import url('components/menu.css');
+
+@import url('components/hero.css');
