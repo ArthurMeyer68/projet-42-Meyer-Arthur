@@ -1,0 +1,14 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Mise en forme des légendes pour les images */
+figure {
+    margin: 0;
+  }
+  
+  figcaption {
+    font-size: var(--texte-eb-garamond);
+    color: white;
+  }

@@ -1,0 +1,21 @@
+:root{
+/* Color styles */
+--fond-1: rgba(39, 38, 38, 1);
+--fond-2: rgba(136, 135, 23, 1);
+--jaune-du-site: rgba(255, 245, 0, 1);
+--couleur-header: rgba(240, 239, 239, 1);
+--couleur-footer: rgba(0, 0, 0, 1);
+
+/* Polices de caractères */
+--font-serif: 'EB Garamond', serif;
+--font-sans-serif: 'Overpass', sans-serif;
+
+/* Text-size styles */
+/* base size: texte-eb garamond (18px) */
+--texte-menu: 1.33rem;
+--légende: 0.61rem;
+--texte-eb-garamond: 1rem;
+--texte-eb-garamond-gras: 1rem;
+--titre-jaune: 2rem;
+--h2: 1.56rem;
+}

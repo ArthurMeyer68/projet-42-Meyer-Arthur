@@ -1,0 +1,69 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    font-size: var(--légende);
+    color: white;
+    background-color: var(--fond-1);
+  }
+  
+  h1 {
+    font-family: var(--font-sans-serif);
+    font-size: var(--titre-jaune);
+    font-weight: bold;
+    color: var(--jaune-du-site);
+  }
+  
+  h2 {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    font-size: var(--h2);
+    color: var(--jaune-du-site);
+  }
+  
+  h3 {
+    font-family: var(--font-serif);
+    font-weight: italic;
+    font-size: var(--texte-eb-garamond);
+    color: white;
+  }
+
+  h4 {
+    font-family: var(--font-serif);
+    font-weight: normal;
+    font-size: 1,22em;
+    color: white;
+  }
+
+  h5 {
+    font-family: var(--font-serif);
+    font-weight: normal;
+    font-size: var(--texte-eb-garamond);
+    color: white;
+  }
+
+  h6 {
+    font-family: var(--font-sans-serif);
+    font-weight: normal;
+    font-size: 0,78em;
+    color: white;
+  }
+
+  header {
+      font-family: var(--font-sans-serif);
+      font-weight: bold;
+      font-size: 1,22em;
+      color: #707070;
+  }
+
+  footer {
+      font-family: var(--font-sans-serif);
+      font-weight: normal;
+      font-size: 0,78em;
+      color: #DCDCDC;
+  }
