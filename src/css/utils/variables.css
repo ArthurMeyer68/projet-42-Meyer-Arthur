@@ -18,4 +18,12 @@
 --texte-eb-garamond-gras: 1rem;
 --titre-jaune: 2rem;
 --h2: 1.56rem;
+
+
+  /* Espaces */
+  --space1x: 8px;
+  --space2x: 16px;
+  --space3x: 24px;
+  --space4x: 48px;
+  --space5x: 80px;
 }

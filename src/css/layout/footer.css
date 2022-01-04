@@ -1,0 +1,39 @@
+.footer {
+    background-color: black;
+    padding: var(--space4x) var(--space3x);
+  }
+  
+  footer a {
+    color: var(--gray-400);
+    text-decoration: none;
+  }
+  
+  .footer__list {
+    display: flex;
+    gap: var(--space3x);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer__list img {
+    filter: invert(60%);
+  }
+  
+  .footer__mentions {
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: var(--légende);
+  }
+
+  .footer__nom {
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: var(--légende);
+  }
+  
+  .footer > *:not(:first-child) {
+    margin-top: var(--space3x);
+  }
