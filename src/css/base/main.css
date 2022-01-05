@@ -18,6 +18,8 @@ body {
     font-size: var(--titre-jaune);
     font-weight: bold;
     color: var(--jaune-du-site);
+    text-align : left;
+    margin-left: 30px;
   }
   
   h2 {
@@ -31,15 +33,22 @@ body {
   h3 {
     font-family: var(--font-serif);
     font-weight: italic;
-    font-size: var(--texte-eb-garamond);
+    font-size: 20px;
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+    white-space: normal;width:320px;
   }
 
   h4 {
     font-family: var(--font-serif);
     font-weight: normal;
-    font-size: 1,22em;
+    font-size: 22px;
     color: white;
+    text-align: start;
+    margin-left: 30px;
+    margin-right: 50px;
   }
 
   h5 {
@@ -48,8 +57,8 @@ body {
     font-size: var(--texte-eb-garamond);
     color: white;
     margin-left: 30px;
-    margin-right: 90px;
-    text-align: left;
+    margin-right: 50px;
+    text-align: start;
     line-height: 124,2%;
   }
 
@@ -58,6 +67,8 @@ body {
     font-weight: normal;
     font-size: 0,78em;
     color: white;
+    margin-left: 200px;
+    margin-right: 20px;
   }
 
   header {
