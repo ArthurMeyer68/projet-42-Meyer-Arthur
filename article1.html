@@ -7,6 +7,7 @@
         <title>Home Page</title>
         <link rel="stylesheet" href="src/css/style.css">
         <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
     </head>
 
     <body  x-data="{ atTop: true }">
@@ -56,9 +57,15 @@
                     l’estime de la population française.
                     C’est le super-héros qui à
                     l’empreinte carbone la plus élevée.</h4>
-                    <img src="public/img/batman-dos.webp" alt="batman de dos">
-                    <img src="public/icons/play2.svg" alt="bouton play">
-                    <p>Légende : Batman de dos @denofgeek</p>
+
+            <div class="hero__superposition">
+                <img src="public/img/batman-de-face.webp" alt="batman de face">
+                <button>
+                    <img href="https://youtu.be/cAzFkkxG3VU" class="play" src="public/icons/play2.svg" alt="play">
+                </button>
+            </div>
+            
+            <p>Légende : Batman de dos @denofgeek</p>
 
             <h5>Le film “The Dark Knight Rises” séduit
                 98% de personnes sur Netflix. C’est la
@@ -70,28 +77,29 @@
                 Il est réalisé par Christopher Nolan, qui a
                 réalisé de nombreux films comme :</h5>
 
-            <img src="public/img/insomnia.webp" alt="affiche insomnia">
-                <p>Légende : Insomnia en
-                    2002 @allocine</p>
+            
+                <img class="hero_film" src="public/img/insomnia.webp" alt="affiche insomnia">
+                    <p class="hero_film-t" >Légende : Insomnia en
+                        2002 @allocine</p>
 
-            <img src="public/img/begins.webp" alt="affiche batman begins">
-                <p>Légende : Batman Begins
-                    en 2005 @allocine</p>
+                <img class="hero_film" src="public/img/begins.webp" alt="affiche batman begins">
+                    <p class="hero_film-t" >Légende : Batman Begins
+                        en 2005 @allocine</p>
 
-            <img src="public/img/dark-knight.webp" alt="affiche The Dark Knight">
-                <p>Légende : The Dark Knight
-                    en 2008 @allocine</p>
+                <img class="hero_film" src="public/img/dark-knight.webp" alt="affiche The Dark Knight">
+                    <p class="hero_film-t" >Légende : The Dark Knight
+                        en 2008 @allocine</p>
 
-            <img src="public/img/inception.webp" alt="affiche Inception">
-                    <p>Légende : Inception en
-                        2010 @allocine</p>
+                <img class="hero_film" src="public/img/inception.webp" alt="affiche Inception">
+                        <p class="hero_film-t" >Légende : Inception en
+                            2010 @allocine</p>
 
-            <img src="public/img/interstellar.webp" alt="affiche Interstellar">
-                    <p>Légende : Interstellar en
-                        2014 @allocine</p>
+                <img class="hero_film" src="public/img/interstellar.webp" alt="affiche Interstellar">
+                        <p class="hero_film-t" >Légende : Interstellar en
+                            2014 @allocine</p>
 
-            <img src="public/img/quay.webp" alt="affiche quay">
-                    <p>Légende : Quay en 2015
+                <img class="hero_film" src="public/img/quay.webp" alt="affiche quay">
+                    <p class="hero_film-t" >Légende : Quay en 2015
                         @allocine</p>
             
             <h5>Voici la liste complète de film fait par le
@@ -99,17 +107,17 @@
 
             <h5>Mais les problèmes environnementaux,
                 ne préoccupent pas autant qu’aujourd’hui.
-                Certes Batman vend du rêve avec :
+                Certes Batman vend du rêve avec :</h5>
                 
-                     -sa bat-mobile
-                
-                     -ses équipements high-tech
-                
-                     -son charisme
-                
-                     -ou encore sa voix.
-                
-                En plus de ça, il est milliardaire. Le seul
+
+                <ul style="list-style-type:none;">
+                    <li class="hero_tiret">-sa bat-mobile</li>
+                    <li class="hero_tiret">-ses équipements high-tech</li>
+                    <li class="hero_tiret">-son charisme</li>
+                    <li class="hero_tiret">-ou encore sa voix.</li>
+                  </ul>
+
+                <h5>En plus de ça, il est milliardaire. Le seul
                 bémol en tant que super-héros, il n’a pas de
                 super-pouvoir.
                 Bruce Wayne c’est le vrai nom de l’homme
@@ -124,18 +132,17 @@
                 exemple, le Joker ou Bane(le terroriste
                 masqué).
                 Il a la réputation de sauver des vies seul. Il
-                est pourtant accompagné par :
-                
-                     -Alfred Pennyworth (son major
-                      d’homme)
-                
-                     -James Gordon (le commissaire)
-                
-                     -bien sûr Robin.</h5>
-        
-            <h3>"Ces personnes l’adulent, sans
-                savoir à quel point il, peut
-                nuire à son environnement."</h3>
+                est pourtant accompagné par :</h5>
+
+                <ul style="list-style-type:none;">
+                    <li class="hero_tiret">-Alfred Pennyworth (son major d’homme)</li>
+                    <li class="hero_tiret">-James Gordon (le commissaire)</li>
+                    <li class="hero_tiret">-bien sûr Robin.</li>
+                  </ul>
+
+                <div class="hero__superposition3">
+                    <img src="public/img/formeJaune3.webp" alt="formjaune">
+                    <h3 class="texte_cit1">"Ces personnes l’adulent, sans savoir à quel point il, peut nuire à son environnement."</h3>
 
             <h1>Batman,
                 un anti-héros ?</h1>
@@ -159,6 +166,7 @@
                 de vie le plus optimal.</h5>
 
             <h6>Auteur : Martin Crevoisier</h6>
+
         </main>
         <footer class="footer">
             <div class="footer__social">
