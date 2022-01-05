@@ -1,0 +1,40 @@
+.texte13 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 3;
+    line-height: 5em;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.55);
+    top: 0;
+    display: none;
+} 
+
+.images15, .images155, .images153 {
+	width: 6600px;
+	height: 323px;
+	left:0;
+}
+
+.images15 img, .images155 img, .images153 img {
+	width: 500px;
+	height: 323px;
+}
+
+.image15, .image155, .image153 {
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 0;
+}
+
+.carrousel, .carrousel5, .carrousel3 {
+	grid-column: 2;
+	grid-row: 2;
+	width: 540px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+}

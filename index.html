@@ -7,6 +7,8 @@
         <title>Home Page</title>
         <link rel="stylesheet" href="src/css/style.css">
         <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+        <script src="https://animejs.com/lib/anime.min.js"></script>
+		<script src="src/js/fonctions.js"></script>
     </head>
 
     <body  x-data="{ atTop: true }">
@@ -48,7 +50,8 @@
         <main>
             
             <div class="hero__superposition">
-                <img src="public/img/batman-de-face.webp" alt="batman de face">
+                <img class="batjs2" src="public/img/batman-dos.webp" x-on:mouseover="chang2()">
+                <img class="batjs" src="public/img/batman-de-face.webp" alt="batman de face" x-on:mouseover="chang()">
                 <h2 class="texte_centrer">Batman l'anti-héros</h2>
                 <img class="fleche_dessous" src="public/icons/petite_flèche.svg" alt="flèche">
               </div>
@@ -64,9 +67,17 @@
                 J'ai choisi Batman en relation avec
                 l'obsolescence programmée.</h5>
 
-            <img src="public/img/affiche-film.webp" alt="Affiche The Dark Knight Rises">
-                <br>
-                <p>Légende : Affiche The Dark Knight Rises @allocine</p>
+            
+                <div class="exemples legendeSurImage">
+                    <div class="visionneuse">
+                        <div class="image image13"
+                            x-on:mouseover="monterLegende()"
+                            x-on:mouseleave="descendreLegende()">
+                            <img src="public/img/affiche-film.webp">
+                        </div>
+                        <p class="texte13">Affiche The Dark Knight Rises @allocine</p>
+                    </div>
+                </div>
 
                 <div class="hero__superposition">
                     <img src="public/img/formeJaune.webp" alt="formjaune">
@@ -75,7 +86,9 @@
                         le succès de Batman et
                         pourquoi il peut baisser
                         dans l'estime des gens.</h5>
-                    <img class="fleche_jaune" src="public/icons/fleche_jaune.svg" alt="flèche jaune">
+                        <a href="article1.html">
+                            <img class="fleche_jaune" src="public/icons/fleche_jaune.svg" alt="flèche jaune">
+                        </a>
                     <p class="suite">Lire la suite</p>
                   </div>
 
@@ -84,7 +97,9 @@
                     Batman est démesurée !
                     Viens voir à quel point il
                     peut-être un anti-héros.</h5>
-                    <img class="fleche_jaune2" src="public/icons/fleche_jaune.svg" alt="flèche jaune">
+                    <a href="article2.html">
+                        <img class="fleche_jaune2" src="public/icons/fleche_jaune.svg" alt="flèche jaune">
+                    </a>
                     <p class="suite2">Lire la suite</p>
 
             <div class="hero__superposition2">
@@ -95,10 +110,33 @@
                     des économies, c'est
                     possible ! C'est par là que
                     ça se passe.</h5>
-                <img class="fleche_jaune3" src="public/icons/fleche_jaune.svg" alt="flèche jaune">
+                    <a href="article3.html">
+                        <img class="fleche_jaune3" src="public/icons/fleche_jaune.svg" alt="flèche jaune">
+                    </a>
                     <p class="suite3">Lire la suite</p>
             </div>
          
+
+            <div class="exemples carrousel">
+                <div class="entete">
+                    <h1>Images de Batman</h1>
+                </div>
+                <div class="droite153">&nbsp;</div>
+                <div class="carrousel3">
+                    <div class="images153">
+                        <img id="img1" class="image153" src="public/img/batmancar1.webp"/>
+                        <img id="img2" class="image153" src="public/img/batmancar2.webp"/>
+                        <img id="img3" class="image153" src="public/img/batmancar3.webp"/>
+                    </div>
+                </div>
+            </div>
+            <script>
+                
+                carrousel3Images();
+                
+            </script>
+            <hr/>
+
         </main>
         <footer class="footer">
             <div class="footer__social">

@@ -256,3 +256,10 @@ text-align: center;
   margin-right: 30px;
   vertical-align: center;
 }
+
+.batjs2 {
+  position: absolute;
+  margin-left: -190px;
+  margin-right: 500px;
+  height: 650px;
+}
